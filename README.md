@@ -35,13 +35,13 @@ O código foi desenvolvido em **C++** utilizando a biblioteca **UbidotsEsp32Mqtt
 ```cpp
 #include "UbidotsEsp32Mqtt.h"
 
-const char *WIFI_SSID = "AndroidAP"; // SSID do Wi-Fi
-const char *WIFI_PASS = "onuz2204";  // Senha do Wi-Fi
+const char *WIFI_SSID = "Iphone15"; // SSID do Wi-Fi
+const char *WIFI_PASS = "senhadarede";  // Senha do Wi-Fi
 
 const char *UBIDOTS_TOKEN = "BBUS-YvRNja0v0CjGesChRsmWQBEJdlE61K"; 
-const char *DEVICE_LABEL = "esp32_t13_iotrackers2"; 
+const char *DEVICE_LABEL = "esp32_iotrackers"; 
 const char *VARIABLE_LABEL = "wifi_signal"; 
-const char *CLIENT_ID = "batmen";
+const char *CLIENT_ID = "iotrackers";
 
 Ubidots ubidots(UBIDOTS_TOKEN, CLIENT_ID);
 
@@ -142,7 +142,7 @@ A demonstração do projeto foi gravada em vídeo, mostrando o funcionamento do 
 
 - **Configuração do ESP32**:
   - Certifique-se de configurar o SSID e a senha corretos para conectar ao Wi-Fi.
-  - A biblioteca utilizada pode ser encontrada no [GitHub do projeto](https://github.com/agodoi/m04-semana05).
+  - A biblioteca utilizada pode ser encontrada no [repositório](https://github.com/agodoi/m04-semana05) disponibilizado pelo professor André Godoi.
 - **Testes Realizados**:
   - Distância variável entre ESP32 e hotspot.
   - Bloqueio de sinal com uma gaiola de Faraday simulada (elevador).

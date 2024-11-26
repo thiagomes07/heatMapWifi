@@ -2,13 +2,13 @@
 
 // Constantes de configuração
 
-const char *WIFI_SSID = "AndroidAP"; // Coloque aqui o SSID do seu Wi-Fi
-const char *WIFI_PASS = "onuz2204"; // Coloque aqui a senha do seu Wi-Fi
+const char *WIFI_SSID = "Iphone15"; // SSID do Wi-Fi
+const char *WIFI_PASS = "senhadarede";  // Senha do Wi-Fi
 
 const char *UBIDOTS_TOKEN = "BBUS-YvRNja0v0CjGesChRsmWQBEJdlE61K"; 
-const char *DEVICE_LABEL = "esp32_t13_iotrackers2"; 
-const char *VARIABLE_LABEL = "wifi_signal"; // Variável para o RSSI (novo)
-const char *CLIENT_ID = "batmen"; 
+const char *DEVICE_LABEL = "esp32_iotrackers"; 
+const char *VARIABLE_LABEL = "wifi_signal"; 
+const char *CLIENT_ID = "iotrackers";
 
 Ubidots ubidots(UBIDOTS_TOKEN, CLIENT_ID);
 
