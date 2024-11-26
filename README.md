@@ -133,7 +133,7 @@ A demonstração do projeto foi gravada em vídeo, mostrando o funcionamento do 
 
 ### Links para os Vídeos:
 
-- **Local**: [Clique aqui para baixar o vídeo](./assets/wifi_RSSI_test_esp32_ubidots.MOV)
+- **Local**: [Clique aqui para baixar o vídeo](./assets/wifi_RSSI_test_esp32_ubidots.mp4)
 - **Google Drive**: [Assista ao vídeo no Google Drive](https://drive.google.com/file/d/1SBXYIGs0_yGJXmbmtagQIZOZq9z7JVo9/view?usp=sharing)
 
 ---
